@@ -37,5 +37,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # HACK: Set older build date
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.bootimage.build.date.utc=0 \
-    ro.build.date.utc=0
+    ro.bootimage.build.date.utc=0
