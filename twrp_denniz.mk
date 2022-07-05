@@ -28,8 +28,12 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 PRODUCT_DEVICE := denniz
 PRODUCT_NAME := twrp_denniz
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := OnePlus Nord 2 5G
+PRODUCT_MODEL := DN2101
 PRODUCT_MANUFACTURER := OnePlus
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_DEVICE=OP515BL1 \
+    PRODUCT_NAME=DN2101IND
 
 # HACK: Set older build date
 PRODUCT_PROPERTY_OVERRIDES += \
